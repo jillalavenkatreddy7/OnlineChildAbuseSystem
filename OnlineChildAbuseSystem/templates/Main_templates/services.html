@@ -1,0 +1,118 @@
+{% include 'Main_templates/title.html' %}
+<style type="text/css">
+    a:link{
+        text-decoration: none;
+    }
+</style>
+<br>
+
+<b>
+    <h2>===>This system is providing<font color="red" size="5">"REST FULL web Services"</font>and the Response is JSON Response.</h2>
+    <br>The following are the several services providing by the online child abuse system
+</b>
+
+<center>
+    <br>
+    <table align="center" border="2"  width="1000">
+               <tr>
+            <th colspan="2" style="color: red">For Police_Sation  Registration or Updation JSON Object key suggetions</th>
+        </tr>
+        <tr>
+            <th style="color: blue">
+       "police_station_id",
+    "station_place",
+    "station_ci_name",
+    "mandal",
+    "District",
+    "contact_number",
+    "station_mail",
+    "complete_address",
+    "password",
+    "status",
+    "Date_of_join"
+
+            </th>
+            <th>
+                <textarea rows="5" cols="70">EX:
+    {"police_station_id":11,
+    "station_place":"ibp",
+    "station_ci_name":"raju",
+    "mandal":"ibp",
+    "District":"rr",
+    "contact_number":960388,
+    "station_mail":"venkat@gmail.com",
+    "complete_address":"2/24",
+    "password":"venkat",
+    "status":"pending",
+    "Date_of_join":"2020-1-1"}
+
+                </textarea>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="2"></th>
+        </tr>
+        <tr>
+            <th colspan="2" style="color: red">For Ngo Registration or Updation JSON Object key suggetions</th>
+        </tr>
+        <tr>
+            <th style="color: blue">
+                  "ngo_id" ,"ngo_place","ngo_volunteer_name",
+    "mandal",
+    "District",
+    "contact_number,
+    "Ngo_mail",
+    "complete_address",
+    "password",
+    "status",
+    "Date_of_join"
+            </th>
+            <th>
+                <textarea rows="5" cols="70">Ex:
+    {"ngo_id":101,
+"ngo_place":"ibp",
+"ngo_volunteer_name":"venkat",
+"mandal":"ibp",
+ "District":"rr",
+  "contact_number":9398326287,
+   "Ngo_mail":"venkat@gmail.com",
+   "complete_address":"2/24",
+    "password":"venkat",
+    "status":"pending",
+    "Date_of_join":"2020-1-1"}
+
+                </textarea>
+            </th>
+        </tr>
+    </table>
+    <br>
+    <table align="center" border="2" bgcolor="yellow" width="700">
+        <tr>
+            <th>SERVICES</th>
+        </tr>
+        <tr>
+            <th><a href="/Child_Web_Services/police_registration_request/"><h3>Police Station Registering to the System Service</h3></a></th>
+        </tr>
+        <tr>
+            <th>
+                <a href="/Child_Web_Services/police_details_update/"><h3>Police Station update service</h3></a>
+            </th>
+        </tr>
+        <tr>
+            <th><a href="/Child_Web_Services/ngo_registration_request/"><h3>NGO'S Registering to the System Service</h3></a></th>
+        </tr>
+        <tr>
+            <th><a href="/Child_Web_Services/ngo_details_update/"><h3>NGO'S update service</h3></a></th>
+        </tr>
+        <tr>
+            <th><a href="/Child_Web_Services/get_police_data/"><h3>police station details Service</h3></a></th>
+        </tr>
+        <tr>
+            <th><a href="/Child_Web_Services/get_ngo_data/"><h3>NGO"S details Service</h3></a></th>
+        </tr>
+        <tr>
+            <th><a href="/Child_Web_Services/get_total_complaint_details/"><h3>Child Complaint details Service</h3></th>
+        </tr>
+
+    </table>
+</center>
